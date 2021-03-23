@@ -66,8 +66,8 @@ nav a{
 nav a:hover{
     color: #ccc;
 }
-header{
-    padding: 10px;
+.showimage img{
+    margin-bottom: -8px;
 }
 .showcase{
     border-top: 5px solid @primary-color;
@@ -127,15 +127,24 @@ footer{
     .container{
         width: 70%;
     }
+    .showimage img{
+        width: 100%;
+    }
 }
 @media(max-width:768px){
     .container{
         width: 80%;
     }
+    .showimage img{
+        width: 100%;
+    }
 }
 @media(max-width:568px){
     .container{
         width: 90%;
+    }
+    .showimage img{
+        width: 100%;
     }
     .specials li{
         float: none;
